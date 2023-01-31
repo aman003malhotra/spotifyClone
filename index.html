@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify - Your favorite music is here</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <nav>
@@ -17,18 +19,67 @@
     </nav>
 
     <div class="container">
-        <h1>Best of No Copyright Songs</h1>
-        <div class="songList"></div>
+        <div class="songList">
+            <h1>Best of No Copyright Songs</h1><br />
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1" />
+                    <span> Let me love you</span>
+                    <span class="songlistplay"><span class="timestamps">05:34</span><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1" />
+                    <span> Let me love you</span>
+                    <span class="songlistplay"><span class="timestamps">05:34</span><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1" />
+                    <span> Let me love you</span>
+                    <span class="songlistplay"><span class="timestamps">05:34</span><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1" />
+                    <span> Let me love you</span>
+                    <span class="songlistplay"><span class="timestamps">05:34</span><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1" />
+                    <span> Let me love you</span>
+                    <span class="songlistplay"><span class="timestamps">05:34</span><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1" />
+                    <span> Let me love you</span>
+                    <span class="songlistplay"><span class="timestamps">05:34</span><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1" />
+                    <span> Let me love you</span>
+                    <span class="songlistplay"><span class="timestamps">05:34</span><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/1.jpg" alt="1" />
+                    <span> Let me love you</span>
+                    <span class="songlistplay"><span class="timestamps">05:34</span><i class="fa fa-play-circle fa-2x" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
         <div class="songBanner"></div>
     </div>
 
     <div class="bottom">
         <input type="range" name="range" id="myProgressBar" min="0" max="100" />
         <div class="icon">
+            <i class="fa fa-step-backward fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-play-circle fa-2x" aria-hidden="true"></i>
+            <!-- <i class="fa fa-pause"></i> -->
+            <i class="fa fa-step-forward fa-2x" aria-hidden="true"></i>
             <!-- font awesome icons -->
         </div>
+        <div class="songInfo">
+            <img src="playing.gif" style="width: 42px; " alt="gif">Let me love You - Justin Bieber
+        </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
